@@ -24,9 +24,9 @@ For installing applet I used Global Platform Pro (https://github.com/martinpalja
 Here I mention my workflow (used in command line):
 1. Simply navigate in cmd to the directory where is gp.exe or add path to environment variables
 2. Basic commands:
-  gp -h help
-  gp -l lists installed applets on the card
-  gp --install #path_to_cap_file installs applet
-  gp --delete #package_id deletes package by id 
-  gp --uninstall #path_to_installed_applet_on_your_pc deletes applet
-  gp --applet #applet_id --apdu #apdu_id sends apdu on specified applet
+ * gp -h help
+ * gp -l lists installed applets on the card
+ * gp --install #path_to_cap_file installs applet
+ * gp --delete #package_id deletes package by id 
+ * gp --uninstall #path_to_installed_applet_on_your_pc deletes applet
+ * gp --applet #applet_id --apdu #apdu_id sends apdu on specified applet
