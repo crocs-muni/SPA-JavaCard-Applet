@@ -7,6 +7,8 @@ Each cryptographic operation is delimited by operations of random number generat
 This repository also contains build applets (CAP files) that can be directly installed on smart card.
 There are 3 versions, each for different JavaCard SDK version.
 
+**Compiling**
+
 Source code in Java can be developed and then compiled/converted to CAP (file installable on JavaCard) by https://github.com/crocs-muni/javacard-gradle-template-edu using Ant JavaCard.
 
 Here is my workflow using mentioned tool (used in command line):
@@ -18,6 +20,8 @@ Here is my workflow using mentioned tool (used in command line):
 4. Then run gradlew buildJavaCard  --info --rerun-tasks
 5. If everything ended successfully .cap file should be in .\javacard-gradle-template-edu\applet\build
 6. All done now, we can now proceed to applet installing
+
+**Installing**
 
 For installing applet I used Global Platform Pro (https://github.com/martinpaljak/GlobalPlatformPro).
 
