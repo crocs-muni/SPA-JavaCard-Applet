@@ -1,4 +1,4 @@
-# SBAPR-2019-JCApplet
+# SPA JavaCard Applet
 
 This is applet for smartcards supporting JavaCard platform.
 This applet was created as a part of a Bachelor thesis focused on obtaining powertraces of basic cryptografic operations.
